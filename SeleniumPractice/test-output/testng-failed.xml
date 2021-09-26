@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [First Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="5" name="First Test(failed)" verbose="2">
+    <classes>
+      <class name="testNG.DriveCar">
+        <methods>
+          <include name="putFirstGear"/>
+          <include name="startTheCar"/>
+          <include name="putSecondGear"/>
+        </methods>
+      </class> <!-- testNG.DriveCar -->
+      <class name="testNG.sampleTestCase">
+        <methods>
+          <include name="OpenLeafGround"/>
+          <include name="OpenGuru99"/>
+          <include name="launchBrowser"/>
+          <include name="OpenGoogle"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testNG.sampleTestCase -->
+    </classes>
+  </test> <!-- First Test(failed) -->
+</suite> <!-- Failed suite [First Suite] -->
